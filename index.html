@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Favicon_VRForge.png" type="image/png">
+    <title>VR Forge | Trabalhe Conosco</title>
+</head>
+<body>
+    <header>
+        <img src="./img/LogoVRForge.png" alt="Logo da VR Forge">
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Jogos</a></li>
+            <li><a href="#">Trabalhe Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+        </nav>
+    </header>
+    <main>
+        <h1>Trabalhe Conosco</h1>
+        <p>Faça parte do nosso time!</p>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="name">Nome Completo</label>
+                <input type="text" name="userName" id="name" required>
+                <label for="birthDate">Data de Nascimento</label>
+                <input type="date" name="userBirthDate" id="birthDate" required>
+                <label for="phone">Telefone</label>
+                <input type="tel" name="userPhone" id="phone" pattern="[0-9]{11}" placeholder="DDD + número sem espaços ou caracteres especiais">
+                <label for="email">E-mail</label>
+                <input type="email" name="userEmail" id="email" required>
+            </fieldset>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <p>Nível de Escolaridade</p>
+                <input type="radio" name="userSchoolLevel" id="schoolLevel" value="ensinoMedio">
+                <label for="schoolLevel">Ensino Médio Completo</label>
+                <input type="radio" name="userSchoolLevel" id="schoolLevel" value="superiorIncompleto">
+                <label for="schoolLevel">Ensino Superior Incompleto</label>
+                <input type="radio" name="userSchoolLevel" id="schoolLevel" value="superiorCompleto">
+                <label for="schoolLevel">Ensino Superior Completo</label>
+                <fieldset>
+                    <legend>Experiências Anteriores:</legend>
+                    <label for="workBegin">Data de Início</label>
+                    <input type="date" name="userDateBegin" id="workBegin">
+                    <label for="workEnd">Data Fim</label>
+                    <input type="date" name="userDateEnd" id="workEnd">
+                    <label for="workCompany">Empresa</label>
+                    <input type="text" name="userCompany" id="workCompany">
+                    <label for="workFunction">Função</label>
+                    <input type="text" name="userFuntion" id="workFunction">
+                    <label for="workActivities">Principais Atividades</label>
+                    <textarea name="userWorkActivities" id="workActivities"></textarea>
+                </fieldset>
+                <p>Idiomas</p>
+                <input type="checkbox" id="english" name="userLanguage" value="english">
+                <label for="english">Inglês</label>
+                <input type="checkbox" id="spanish" name="userLanguage" value="spanish">
+                <label for="spanish">Espanhol</label>
+                <label for="curriculum">Currículo</label>
+                <input type="file" accept="application/pdf" name="userCurriculum" id="curriculum" required>
+            </fieldset>
+            <fieldset>
+                <legend>Interesse</legend>
+                <p>Área de Interesse</p>
+                <input type="checkbox" name="frontend" id="frontend">
+                <label for="frontend">Frontend</label>
+                <input type="checkbox" name="backend" id="backend">
+                <label for="backend">Backend</label>
+                <input type="checkbox" name="bancoDeDados" id="database">
+                <label for="database">Banco de Dados</label>
+                <input type="checkbox" name="designGrafico" id="design">
+                <label for="design">Design Gráfico</label>
+                <input type="checkbox" name="administracao" id="administration">
+                <label for="administration">Administração</label>
+                <input type="checkbox" name="outros" id="others">
+                <label for="others">Outros</label>
+
+                <p>Tipo de vaga</p>
+                <input type="checkbox" name="internship" id="internship">
+                <label for="internship">Estágio</label>
+                <input type="checkbox" name="fullTime" id="fullTime">
+                <label for="fullTime">CLT Tempo Integral</label>
+                <input type="checkbox" name="partTime" id="partTime">
+                <label for="partTime">CLT Tempo Parcial</label>
+                <input type="checkbox" name="freelancer" id="freelancer">
+                <label for="freelancer">Freelancer</label>
+
+                <p>Modalidade</p>
+                <input type="checkbox" name="homeOffice" id="homeOffice">
+                <label for="homeOffice">Remoto</label>
+                <input type="checkbox" name="inPerson" id="inPerson">
+                <label for="inPerson">Presencial</label>
+                <input type="checkbox" name="hybrid" id="hybrid">
+                <label for="hybrid">Híbrido</label>
+            </fieldset>
+            <button type="submit">Enviar Candidatura</button>
+            <button type="reset">Limpar Dados</button>
+        </form>
+    </main>
+    <footer>
+        <p>Nos acompanhe nas redes sociais:</p>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Steam</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
