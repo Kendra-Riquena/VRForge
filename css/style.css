@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --primary-color: #00c2ff;
+    --secondary-color: #ff7a18;
+    --bg-black: #0b0e14;
+    --gray:#2a2f3a;
+    --white: #ededed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-black);
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15vw;
+}
+
+.cabecalho-logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho-menu-itens {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.cabecalho-menu-itens:hover {
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
+
