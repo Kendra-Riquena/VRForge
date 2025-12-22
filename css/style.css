@@ -84,6 +84,54 @@ fieldset {
 legend {
     padding: 0 10px;
     font-weight: 600;
+    font-size: 18px;
+}
+
+label {
+    display: inline-block;
+}
+
+fieldset p {
+    font-size: 18px;
+    margin: 20px 0 5px; 
+
+}
+
+input, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    background-color: var(--bg-black);
+    margin-bottom: 18px;
+    color: var(--white);
+}
+
+input[type="date"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-left: 12px;
+}
+
+textarea {
+    resize: none;
+    height: 5.5rem;
+}
+
+:placeholder-shown {
+    color: var(--gray);
+
 }
 
 
