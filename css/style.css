@@ -51,3 +51,40 @@ a {
     transition: 0.5s;
 }
 
+.banner {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: var(--primary-color);
+}
+
+.banner-convite {
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin-bottom: 12px;
+}
+
+form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+
+
