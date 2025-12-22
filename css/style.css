@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --primary-color: #00c2ff;
+    --secondary-color: #ff7a18;
+    --bg-black: #0b0e14;
+    --gray:#2a2f3a;
+    --white: #ededed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-black);
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+    margin: 0 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15vw;
+}
+
+.cabecalho-logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho-menu-itens {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.cabecalho-menu-itens:hover {
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
+
+.banner {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: var(--primary-color);
+}
+
+.banner-convite {
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin-bottom: 12px;
+}
+
+form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+label {
+    display: inline-block;
+}
+
+fieldset p {
+    font-size: 18px;
+    margin: 20px 0 5px; 
+
+}
+
+input, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    background-color: var(--bg-black);
+    margin-bottom: 18px;
+    color: var(--white);
+}
+
+input[type="date"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-left: 12px;
+}
+
+textarea {
+    resize: none;
+    height: 5.5rem;
+}
+
+:placeholder-shown {
+    color: var(--gray);
+
+}
+
+button {
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: var(--primary-color);
+    color: var(--bg-black);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 10px 20px 0;
+    transition: 0.5s;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--bg-black);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+button[type="reset"]:hover {
+    background-color: var(--bg-black);
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+footer {
+    margin: 20px 15vw;
+    text-align: center;
+}
+
+footer p {
+    color: var(--secondary-color);
+    margin: 50px 0 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+footer a {
+    color: var(--primary-color);
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}
+    
+
+
+
+

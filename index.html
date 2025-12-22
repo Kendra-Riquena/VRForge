@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./Favicon_VRForge.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
     <title>VR Forge | Trabalhe Conosco</title>
 </head>
 <body>
     <header>
-        <img src="./img/LogoVRForge.png" alt="Logo da VR Forge">
-        <nav>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Jogos</a></li>
-            <li><a href="#">Trabalhe Conosco</a></li>
-            <li><a href="#">Contato</a></li>
-        </nav>
+        <img src="./img/LogoVRForge.png" alt="Logo da VR Forge" class="cabecalho-logo">
+        <!-- <nav>
+            <ul>
+                <li><a href="#" class="cabecalho-menu-itens">Home</a></li>
+                <li><a href="#" class="cabecalho-menu-itens">Sobre nós</a></li>
+                <li><a href="#" class="cabecalho-menu-itens">Jogos</a></li>
+                <li><a href="#" class="cabecalho-menu-itens">Trabalhe Conosco</a></li>
+                <li><a href="#" class="cabecalho-menu-itens">Contato</a></li>
+            </ul>
+        </nav> -->
     </header>
     <main>
-        <h1>Trabalhe Conosco</h1>
-        <p>Faça parte do nosso time!</p>
+        <div class="banner">
+            <h1>Trabalhe Conosco</h1>
+            <p class="banner-convite">Faça parte do nosso time!</p>
+        </div>
         <form action="" method="get">
             <fieldset>
                 <legend>Dados Pessoais</legend>
@@ -38,9 +44,9 @@
                 <input type="radio" name="userSchoolLevel" id="schoolLevel" value="ensinoMedio">
                 <label for="schoolLevel">Ensino Médio Completo</label>
                 <input type="radio" name="userSchoolLevel" id="schoolLevel" value="superiorIncompleto">
-                <label for="schoolLevel">Ensino Superior Incompleto</label>
+                <label for="schoolLevel">Superior Incompleto</label>
                 <input type="radio" name="userSchoolLevel" id="schoolLevel" value="superiorCompleto">
-                <label for="schoolLevel">Ensino Superior Completo</label>
+                <label for="schoolLevel">Superior Completo</label>
                 <fieldset>
                     <legend>Experiências Anteriores:</legend>
                     <label for="workBegin">Data de Início</label>
@@ -59,12 +65,13 @@
                 <label for="english">Inglês</label>
                 <input type="checkbox" id="spanish" name="userLanguage" value="spanish">
                 <label for="spanish">Espanhol</label>
+                <br>
                 <label for="curriculum">Currículo</label>
                 <input type="file" accept="application/pdf" name="userCurriculum" id="curriculum" required>
             </fieldset>
             <fieldset>
                 <legend>Interesse</legend>
-                <p>Área de Interesse</p>
+                <p>Áreas de Interesse</p>
                 <input type="checkbox" name="frontend" id="frontend">
                 <label for="frontend">Frontend</label>
                 <input type="checkbox" name="backend" id="backend">
@@ -103,10 +110,10 @@
     <footer>
         <p>Nos acompanhe nas redes sociais:</p>
         <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">Steam</a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-steam"></i></a></li>
         </ul>
     </footer>
 </body>
