@@ -158,6 +158,34 @@ button[type="reset"]:hover {
     border-color: var(--secondary-color);
     color: var(--secondary-color);
 }
+
+footer {
+    margin: 20px 15vw;
+    text-align: center;
+}
+
+footer p {
+    color: var(--secondary-color);
+    margin: 50px 0 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+footer a {
+    color: var(--primary-color);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+    transform: scale(1.5);
+}
     
 
 
