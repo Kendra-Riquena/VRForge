@@ -134,5 +134,32 @@ textarea {
 
 }
 
+button {
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: var(--primary-color);
+    color: var(--bg-black);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--bg-black);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+button[type="reset"]:hover {
+    background-color: var(--bg-black);
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+    
+
+
 
 
